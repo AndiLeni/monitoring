@@ -1,0 +1,18 @@
+package: monitoring
+version: "0.0.1-alpha"
+author: Andreas Lenhardt
+supportpage: https://github.com/AndiLeni/monitoring
+page:
+    title: "Monitoring"
+    subpages:
+        status:
+            title: "Status"
+        domains:
+            title: "Domains"
+        settings:
+            title: "Einstellungen"
+requires:
+    redaxo: "^5.12"
+installer_ignore:
+    - .git
+    - preview
